@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  .loading-text {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    color: rgb(255, 0, 157);
+  }
+  
+  .list-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .list-item img {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .list-item button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .list-item img.favorite-icon {
+    width: 20px;
+    margin-left: 10px;
+  }

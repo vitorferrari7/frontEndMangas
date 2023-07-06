@@ -1,0 +1,9 @@
+.container {
+    max-height: 500px; /* Defina a altura máxima desejada */
+    overflow-y: auto; /* Habilita a rolagem vertical quando o conteúdo exceder a altura máxima */
+  }
+
+.imagemcapa{
+    width: 150px;
+    height: auto;
+}

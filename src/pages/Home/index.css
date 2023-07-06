@@ -1,0 +1,13 @@
+h1 {
+        color: rgb(90, 30, 30);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 42px;
+        font-weight: bold;
+    }
+      
